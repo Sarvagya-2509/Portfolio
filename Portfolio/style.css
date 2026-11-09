@@ -16,7 +16,7 @@
         font-size: 90px;
     }
     .home{
-        
+
         margin-left:80px;
         font-size: 18px;
     }
@@ -101,8 +101,119 @@
     }
     .boxes{
         height:200px;
-        width:170px;
+        width:190px;
         background-color: #212121;
         margin-right:20px;
         border-radius:8px;
+    }
+    #sb{
+        font-size: medium;
+    }
+    .sbb{
+        display: flex;
+        justify-content: center;
+        margin-bottom:3px;
+        color:rgb(99,102,241);
+    }
+    .lang{
+        padding-left:30px;
+    }
+    .lang li::marker {
+    color: rgb(99, 102, 241);
+    }
+    .lang li {
+    margin-bottom: 5px;
+    }
+    .about{
+        margin-top:180px;
+        margin-left:80px;
+    }
+    .ar{
+        margin-top:50px;
+        margin-left:40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .me{
+        display: flex;
+        flex-direction: row;
+    }
+    .same{
+        margin-top:20px;
+        margin-right:140px;
+        min-height:55px;
+        height:auto;
+        width:600px;
+        padding:10px 15px;
+        box-sizing:border-box;
+        background-color: #212121;
+        border-radius:8px;
+    }
+    .same p{
+        margin:5px 0;
+    }
+    .t{
+        font-size:18px;
+    }
+        .contact{
+        margin-top:180px;
+        padding:100px 20px 60px;
+        text-align:center;
+    }
+    .contact-small{
+        color:rgb(99,102,241);
+        font-size:14px;
+        letter-spacing:4px;
+        margin-bottom:20px;
+    }
+    .contact-title{
+        font-size:56px;
+        margin-top:0px;
+        margin-bottom:70px;
+    }
+    .contact-text{
+        color:#777;
+        font-family:Arial,sans-serif;
+        font-size:18px;
+        margin-bottom:55px;
+    }
+    .contact-links{
+        display:flex;
+        justify-content:center;
+        flex-direction:row;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+    .contact-card{
+        width:248px;
+        min-height:80px;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:8px;
+        background-color:#0d0d0f;
+        border:1px solid #212124;
+        border-radius:13px;
+        text-decoration:none;
+        color:white;
+        transition:0.3s;
+    }
+    .contact-label{
+        color:rgb(99,102,241);
+        font-family:Arial,sans-serif;
+        font-size:13px;
+        letter-spacing:3px;
+    }
+    .contact-value{
+        color:#ddd;
+        font-family:Arial,sans-serif;
+        font-size:15px;
+    }
+    .contact-footer{
+        margin-top:50px;
+        color:#444;
+        font-family:monospace;
+        font-size:14px;
     }
