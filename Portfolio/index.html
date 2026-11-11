@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav>
         <div class="navbar">
-            <p class="hover">Home</p>
-            <p class="hover">Project</p>
-            <p class="hover">Skills</p>
-            <p class="hover">About</p>
-            <p class="hover">Contact Me</p>
+            <button class="hover" id="hm">Home</button>
+            <button class="hover" id="ps">Project</button>
+            <button class="hover" id="sk">Skills</button>
+            <button class="hover" id="abt">About</button>
+            <button class="hover" id="bhai">Contact Me</button>
         </div>
     </nav>
 
@@ -39,7 +40,7 @@
     </div>
 
     <div>
-        <br><br><br>
+        <br><br><br><br><br><br><br>
     </div>
 
     <div class="Projects">
@@ -152,7 +153,7 @@
 <div class="contact" id="Contact">
     <p class="contact-small">CONTACT</p>
     <p class="contact-title">Let's connect</p>
-    <p class="contact-text">Open to internships, collaborations, and interesting conversations. Drop me a message!</p>
+    <p class="contact-text">Open to internships, collaborations, and interesting conversations.</p>
 
     <div class="contact-links">
         <a class="contact-card email-card" href="mailto:sarvagya2507dv@gmail.com">
@@ -170,7 +171,7 @@
             <span class="contact-value">github.com/Sarvagya-2509</span>
         </a>
 
-        <a class="contact-card resume-card" href="Resume-Sarvagya.pdf" target="_blank" rel="noopener noreferrer">
+        <a class="contact-card resume-card"  onclick="window.open('https://drive.google.com/file/d/1V0U5CQngJlxOXOs88-MNu8X6UwA2IWuK/view?usp=drive_link', '_blank')">
             <span class="contact-label">RESUME</span>
             <span class="contact-value">Resume-Sarvagya</span>
         </a>
