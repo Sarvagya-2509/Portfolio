@@ -37,3 +37,35 @@ document.querySelector('.b').addEventListener('click',function(e){
         behavior: "smooth"
     }); 
 })
+let n = document.querySelector('.title');
+let m = document.querySelector('.title1');
+
+let name = "SARVAGYA KHANDELWAL";
+let i = 0;
+
+let skn = setInterval(function () {
+
+    if (i < name.length) {
+
+        if (name[i] != ' ') {
+            if (i < name.indexOf(' ')) {
+                n.innerHTML += name[i];
+            }
+            else {
+                m.innerHTML += name[i];
+            }
+        }
+
+        i++;
+    }
+    else {
+        n.innerHTML = '';
+        m.innerHTML = '';
+        i = 0;
+    }
+
+}, 1000);
+
+
+
+

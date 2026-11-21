@@ -6,12 +6,24 @@
     .navbar{
     height:50px;
     width:auto;
-    background-color: #212121;
+    border-bottom: 2px solid #212121;
+    background-color: black;
     display:flex;
     justify-content:space-evenly; 
     }
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
     .title{
+        color:white;
         margin-top:100px;
+        margin-left:80px;   
+        font-size: 90px;
+    }
+    .title1{
+        color:white;
+        margin-top:4px;
         margin-left:80px;   
         font-size: 90px;
     }
@@ -26,14 +38,17 @@
     .hover{
         cursor:pointer;
     }
-    .parent{
-        display:flex;
-        flex-direction:row;
-    }
-    .profile{
-        margin-top: 70px;
-        margin-left:100px;
-    }
+   .parent{
+    display:flex;
+    flex-direction:row;
+    position: relative;   
+    min-height: 580px;    
+}
+.profile{
+    position: absolute;   
+    top: 70px;        
+    left: 1000px;         
+}
     .b{
         width: 120px;
         height: 48px;
