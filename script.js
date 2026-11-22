@@ -66,6 +66,24 @@ let skn = setInterval(function () {
 
 }, 1000);
 
+let me=document.querySelector('#me')
+me.addEventListener('click',function(e){
+window.open('https://drive.google.com/file/d/1V0U5CQngJlxOXOs88-MNu8X6UwA2IWuK/view?usp=drive_link')
+});
 
+let resale=document.querySelector('#resale')
+resale.addEventListener('click',function(e){
+window.open('https://github.com/Sarvagya-2509/Bpit-resale')    
+})
+
+let aqua=document.querySelector('#aqua')
+aqua.addEventListener('click',function(e){
+window.open('https://github.com/Sarvagya-2509/AquaSave')    
+})
+
+let ayu=document.querySelector('#ayu')
+ayu.addEventListener('click',function(e){
+window.open('https://github.com/Sarvagya-2509/ip-sakt-sahayak')    
+})
 
 
